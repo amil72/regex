@@ -1,0 +1,44 @@
+# Server logs
+2025-03-12 09:23:14 INFO  User user01 logged in from 192.168.1.45
+2025-03-12 09:25:17 WARNING Disk space at 85%
+2025-03-12 09:30:02 ERROR  Failed to open /var/data/report.csv
+2025-03-12 09:35:45 INFO  User user12 uploaded file results_final.docx
+2025-03-12 10:00:55 INFO  User user07 logged out
+2025-03-12 10:10:21 ERROR  Connection timeout from 192.168.1.98
+2025-03-12 10:12:33 WARNING CPU temperature high
+2025-03-12 10:15:59 INFO  Backup completed successfully
+2025-03-12 10:25:10 INFO  New registration: jdoe@example.com
+2025-03-12 10:45:00 ERROR  File not found: /tmp/data.csv
+
+# Web data
+Name: Alice Johnson
+Email: alice.johnson@ub.edu.bz
+Phone: +501-623-9988
+Website: www.ajohnson.com
+StudentID: ID001
+
+Name: Bob Lee
+Email: bob.lee@ub.edu.bz
+Phone: +501-622-3301
+Website: www.boblee.org
+StudentID: ID002
+
+Name: Carol Thompson
+Email: carol.t@outlook.com
+Phone: +501-620-1122
+Website: carol.codes
+StudentID: ID003
+
+# Miscellaneous data
+OrderID: ORD-1001  Date: 2025-01-20  Status: success
+OrderID: ORD-1002  Date: 2025-01-21  Status: failed
+OrderID: ORD-1003  Date: 2025-01-22  Status: success
+Serial Numbers: SN12345, SN23456, SN34567
+Product Codes: PRD001, PRD002, PRD003
+Coordinates: 17.5043,-88.1962
+
+# Notes and random lines
+The quick brown fox jumps over the lazy dog.
+Regex is powerful!
+Loop, looop, loooop — test of quantifiers.
+Sample data ends here.
