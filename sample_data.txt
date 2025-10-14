@@ -1,44 +1,71 @@
-# Server logs
-2025-03-12 09:23:14 INFO  User user01 logged in from 192.168.1.45
-2025-03-12 09:25:17 WARNING Disk space at 85%
-2025-03-12 09:30:02 ERROR  Failed to open /var/data/report.csv
-2025-03-12 09:35:45 INFO  User user12 uploaded file results_final.docx
-2025-03-12 10:00:55 INFO  User user07 logged out
-2025-03-12 10:10:21 ERROR  Connection timeout from 192.168.1.98
-2025-03-12 10:12:33 WARNING CPU temperature high
-2025-03-12 10:15:59 INFO  Backup completed successfully
-2025-03-12 10:25:10 INFO  New registration: jdoe@example.com
-2025-03-12 10:45:00 ERROR  File not found: /tmp/data.csv
-
-# Web data
-Name: Alice Johnson
-Email: alice.johnson@ub.edu.bz
-Phone: +501-623-9988
-Website: www.ajohnson.com
-StudentID: ID001
-
-Name: Bob Lee
-Email: bob.lee@ub.edu.bz
-Phone: +501-622-3301
-Website: www.boblee.org
-StudentID: ID002
-
-Name: Carol Thompson
-Email: carol.t@outlook.com
-Phone: +501-620-1122
-Website: carol.codes
-StudentID: ID003
-
-# Miscellaneous data
-OrderID: ORD-1001  Date: 2025-01-20  Status: success
-OrderID: ORD-1002  Date: 2025-01-21  Status: failed
-OrderID: ORD-1003  Date: 2025-01-22  Status: success
-Serial Numbers: SN12345, SN23456, SN34567
-Product Codes: PRD001, PRD002, PRD003
-Coordinates: 17.5043,-88.1962
-
-# Notes and random lines
-The quick brown fox jumps over the lazy dog.
-Regex is powerful!
-Loop, looop, loooop — test of quantifiers.
-Sample data ends here.
+user01 logged in at 09:15:23 from 192.168.1.12
+user02 ERROR Connection failed
+user03 warning: Disk space low
+Server rebooted successfully at 2025-10-14 14:00:00
+user04 login SUCCESS
+ERR-1023 Database timeout occurred
+INFO: Backup completed at 13:45:09
+user05 encountered ERR-2048
+ID123 Student record added
+ID007 Student record missing
+192.168.100.25 accessed from server01
+10.0.0.5 - Connection reset by peer
+Email: admin@example.com
+Contact: support@company.org
+https://www.openai.com/research
+Visit http://example.net/home for updates
+Call us at (555) 321-9876 or 555-654-1234
+User report sent at 17:05:45
+Data written successfully
+Network Error Detected
+System Failure Alert
+#FF5733 color applied to header
+#abc color used in button
+the the system repeated output
+FAILURE occurred at 2025-10-14 16:30:10
+INFO: Job completed successfully
+WARNING: Memory usage exceeded threshold
+success: Operation completed
+error: could not connect to server
+user06 ERROR Invalid password at 10:02:07
+user07 logged in at 11:05:44 from 172.16.0.7
+user08 WARNING: High CPU usage
+user09 INFO: Backup verified at 21:33:08
+user10 ERROR Login timeout
+ERR-3099 Session expired unexpectedly
+ERR-4010 Unauthorized API request
+ERR-7777 Network unreachable
+(444) 678-9900 reported downtime
+#12AB34 Background gradient start
+#CDEF01 Background gradient end
+Mail sent from alex@mailserver.net to admin@example.com
+New user registration: user11 at 2025-10-14 18:00:00
+user11 INFO: Password reset request
+user12 FAILURE Authentication token invalid
+ID999 Student record archived
+ID045 Student record restored
+Visit https://portal.university.edu/students
+Check results at https://gradecheck.edu/result?id=ID123
+IPv6 detected: fe80::f2de:f1ff:fe23:4567
+IPv6 address assigned: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+Data packet received from 192.168.56.101
+Backup started at 00:00:00 and finished at 01:45:22
+the the the repeated word test
+system System SYSTEM — test of mixed casing
+INFO: Server01 rebooted at 02:12:34
+WARNING: Disk temperature exceeded 75°C
+SUCCESS: Maintenance completed successfully
+ERROR: Disk write failed at 2025-10-14 13:59:59
+2025-09-23 user13 uploaded assignment
+2025-09-23 user14 downloaded report
+2025-09-23 user15 logged out
+Contact support via helpdesk@institute.edu
+Send logs to logs@system-check.net
+report.txt saved successfully
+Readme.md updated
+ERR-0001 Unexpected kernel panic
+WARNING: Low memory threshold at 512MB
+Color palette: #123456, #654321, #A1B2C3, #D4E5F6
+ERROR repeated twice ERROR in this line
+INFO repeated twice INFO in this line
+Server01 reboot scheduled for 2025-12-31 23:59:59
