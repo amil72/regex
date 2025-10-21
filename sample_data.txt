@@ -1,13 +1,13 @@
-user01 logged in at 09:15:23 from 192.168.1.12
+ruser01 logged in at 09:15:23 from 192.168.1.12
 user02 ERROR Connection failed
 user03 warning: Disk space low
 Server rebooted successfully at 2025-10-14 14:00:00
 user04 login SUCCESS
-ERR-1023 Database timeout occurred
+ERR-1023 Database timeout occurred - error
 INFO: Backup completed at 13:45:09
 user05 encountered ERR-2048
 ID123 Student record added
-ID007 Student record missing
+ID007 Student record missing - error
 192.168.100.25 accessed from server01
 10.0.0.5 - Connection reset by peer
 Email: admin@example.com
@@ -18,7 +18,7 @@ Call us at (555) 321-9876 or 555-654-1234
 User report sent at 17:05:45
 Data written successfully
 Network Error Detected
-System Failure Alert
+System Failure Alert - error
 #FF5733 color applied to header
 #abc color used in button
 the the system repeated output
@@ -35,13 +35,13 @@ user10 ERROR Login timeout
 ERR-3099 Session expired unexpectedly
 ERR-4010 Unauthorized API request
 ERR-7777 Network unreachable
-(444) 678-9900 reported downtime
+(444) 678-9900 reported downtime - error
 #12AB34 Background gradient start
 #CDEF01 Background gradient end
 Mail sent from alex@mailserver.net to admin@example.com
 New user registration: user11 at 2025-10-14 18:00:00
 user11 INFO: Password reset request
-user12 FAILURE Authentication token invalid
+user12 FAILURE Authentication token invalid - error
 ID999 Student record archived
 ID045 Student record restored
 Visit https://portal.university.edu/students
